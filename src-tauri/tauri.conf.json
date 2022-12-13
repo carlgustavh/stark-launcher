@@ -59,11 +59,11 @@
     },
     "windows": [
       {
-        "fullscreen": false,
-        "height": 600,
+        "fullscreen": true,
+        "height": 720,
         "resizable": true,
-        "title": "stark-launcher",
-        "width": 800
+        "title": "Stark Launcher",
+        "width": 1280
       }
     ]
   }
