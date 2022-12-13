@@ -65,7 +65,7 @@
   display: block;
   color: inherit;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .stark-logo:hover{
@@ -73,7 +73,7 @@
   cursor: pointer;
 }
 
-#library-nav-container{
+.nav-container{
   display: block;
   color: inherit;
   font-size: 20px;
@@ -84,13 +84,15 @@
   display: flex;
   align-items: center;
   margin: 0 auto;
+  margin-bottom: 2px;
 }
 
-#library-nav-container:hover{
+.nav-container:hover{
+  color: inherit;
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-#library-nav{
+.nav-text{
   margin-left: 15px;
 }
 
