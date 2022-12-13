@@ -2,6 +2,10 @@
   font-family: aAbsoluteEmpire;
   src: url(assets/fonts/aAbsoluteEmpire.otf);
 }
+@font-face {
+  font-family: helveticaBold;
+  src: url(assets/fonts/Helvetica-Bold-Font.ttf);
+}
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -19,6 +23,7 @@
   -webkit-text-size-adjust: 100%;
 
   --logo-font: aAbsoluteEmpire;
+  --main-font: helveticaBold;
 
   --main-body-color: #252525;
   --main-nav-color: #3b3b3b;
@@ -33,26 +38,33 @@
   width: 250px;
   position: fixed;
   background-color: var(--main-nav-color);
-  text-align: center;
+  color: white;
+  font-family: var(--main-font);
+  text-align: left;
 }
 
 .stark-logo{
   font-family: var(--logo-font);
   font-size: 35px;
   margin-top: 20px;
-  color: white;
   line-height: 30px;
   height: 60px;
   display: block;
+  color: inherit;
+  text-align: center;
 }
 
 .stark-logo:hover{
-  color: white;
+  color: inherit;
   cursor: pointer;
 }
 
 #games-nav{
+  margin-top: 10px;
   display: block;
+  color: inherit;
+  font-size: 20px;
+  height: 30px;
 }
 
 h1{
