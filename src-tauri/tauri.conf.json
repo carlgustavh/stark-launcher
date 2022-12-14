@@ -63,7 +63,9 @@
         "height": 720,
         "resizable": true,
         "title": "Stark Launcher",
-        "width": 1280
+        "width": 1280,
+        "minWidth": 500,
+        "minHeight": 200
       }
     ]
   }
