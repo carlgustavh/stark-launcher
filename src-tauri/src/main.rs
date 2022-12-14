@@ -9,10 +9,10 @@ fn greet(name: &str) -> String {
     format!("Hello, {}! You've been greeted from Rust!", name)
 }
 
-#[tauri::command]
-fn writeFile() {
+//#[tauri::command]
+//fn write_file() {
   
-}
+//}
 
 fn main() {
     tauri::Builder::default()
