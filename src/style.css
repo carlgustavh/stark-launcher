@@ -96,6 +96,10 @@
   margin-left: 15px;
 }
 
+#main-content{
+  margin-left: 250px;
+}
+
 h1{
   font-family: var(--logo-font);
 }
