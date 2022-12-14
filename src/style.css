@@ -58,6 +58,7 @@
 }
 
 .stark-logo{
+  all: unset;
   font-family: var(--logo-font);
   font-size: 35px;
   margin-top: 20px;
@@ -69,9 +70,11 @@
   margin-bottom: 20px;
 }
 
-.stark-logo:hover{
+.stark-logo:hover, .stark-logo:focus{
   color: inherit;
   cursor: pointer;
+  text-shadow: 0 0 10px black;
+  
 }
 
 #sidenav-search-container{
@@ -91,6 +94,7 @@
 }
 
 .nav-container{
+  all: unset;
   display: block;
   color: inherit;
   font-size: 20px;
