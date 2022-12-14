@@ -54,7 +54,7 @@
   41.8px 0px 33.4px rgba(0, 0, 0, 0.008),
   100px 0px 80px rgba(0, 0, 0, 0.006)
 ;
-overflow: scroll;
+/*overflow: scroll;*/
 }
 
 .stark-logo{
@@ -74,6 +74,22 @@ overflow: scroll;
   cursor: pointer;
 }
 
+#sidenav-search-container{
+  display: flex;
+  justify-content: center;
+  width: inherit;
+}
+
+#sidenav-search{
+  margin-bottom: 10px;
+  box-shadow: none;
+  width: 170px;
+}
+
+#sidenav-search:hover, #sidenav-search:focus{
+  border: 1px solid white;
+}
+
 .nav-container{
   display: block;
   color: inherit;
@@ -88,7 +104,7 @@ overflow: scroll;
   margin-bottom: 2px;
 }
 
-.nav-container:hover{
+.nav-container:hover, .nav-container:focus{
   color: inherit;
   background-color: rgba(0, 0, 0, 0.2);
 }
