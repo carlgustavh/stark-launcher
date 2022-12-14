@@ -27,6 +27,9 @@
 
   --main-body-color: #252525;
   --main-nav-color: #3b3b3b;
+  --secondary-nav-color: #576057;
+  --light-gray-color: #787879;
+  --dark-blueish-color: #222429;
 }
 
 *{
@@ -100,6 +103,30 @@
 
 #sidenav-library{
   overflow: auto;
+  height: 400px;
+  width: 245px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.14);
 }
 
 .nav-container{
@@ -115,6 +142,7 @@
   align-items: center;
   margin: 0 auto;
   margin-bottom: 2px;
+  cursor: pointer;
 }
 
 .nav-container:hover, .nav-container:focus{
@@ -122,8 +150,9 @@
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-.nav-text{
+.nav-text, .nav-text:hover{
   margin-left: 15px;
+  cursor: pointer;
 }
 
 #main-content{
