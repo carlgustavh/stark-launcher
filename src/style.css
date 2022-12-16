@@ -101,6 +101,24 @@
   border: 1px solid white;
 }
 
+#sidenav-library-transition-top{
+  background: rgb(59,59,59);
+  background: linear-gradient(0deg, rgba(59,59,59,0) 0%, rgba(59,59,59,0.5) 15%, rgba(59,59,59,1) 30%, rgba(59,59,59,1) 73%);
+  position: absolute;
+  height: 10px;
+  width: inherit;
+  top: 165px;
+}
+
+#sidenav-library-transition-bottom{
+  background: rgb(59,59,59);
+  background: linear-gradient(0deg, rgba(59,59,59,1) 27%, rgba(59,59,59,1) 70%, rgba(59,59,59,0.5) 85%, rgba(59,59,59,0) 100%);
+  position: absolute;
+  height: 10px;
+  width: inherit;
+  top: 565px;
+}
+
 #sidenav-library{
   overflow: auto;
   height: 400px;
