@@ -1,3 +1,13 @@
+@font-face {
+  font-family: a-absolute-empire;
+  src: url(assets/fonts/aAbsoluteEmpire.otf);
+}
+
+@font-face {
+  font-family: helvetica-bold;
+  src: url(assets/fonts/Helvetica-Bold-Font.ttf);
+}
+
 :root{
   /*Variables*/
   /* Light UI colors. Lightest to darkest.*/
@@ -10,4 +20,24 @@
   --color-ui-dark: #26262C;
   --color-ui-very-dark: #1C1C21;
   --color-ui-darkest: #131316;
+  /*Text Colors*/
+  --color-text-light: #fff;
+  /*Fonts*/
+  --stylized-font: a-absolute-empire;
+  --regular-font: helvetica-bold;
+}
+
+body{
+  background-color: var(--color-ui-less-dark);
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: var(--stylized-font);
+  color: var(--color-text-light);
+  letter-spacing: 2px;
+}
+
+p{
+  font-family: var(--regular-font);
+  color: var(--color-text-light);
 }
