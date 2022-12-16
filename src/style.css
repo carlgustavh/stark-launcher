@@ -21,7 +21,7 @@
   --color-ui-very-dark: #1C1C21;
   --color-ui-darkest: #131316;
   /*Text Colors*/
-  --color-text-light: #fff;
+  --color-text-lightest: #fff;
   /*Fonts*/
   --stylized-font: a-absolute-empire;
   --regular-font: helvetica-bold;
@@ -33,11 +33,16 @@ body{
 
 h1, h2, h3, h4, h5, h6{
   font-family: var(--stylized-font);
-  color: var(--color-text-light);
+  color: var(--color-text-lightest);
   letter-spacing: 2px;
 }
 
 p{
   font-family: var(--regular-font);
-  color: var(--color-text-light);
+  color: var(--color-text-lightest);
+}
+
+a{
+  font-family: var(--regular-font);
+  color: var(--color-ui-lightest);
 }
