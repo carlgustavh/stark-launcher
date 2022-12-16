@@ -22,6 +22,11 @@
   --color-ui-darkest: #131316;
   /*Text Colors*/
   --color-text-lightest: #fff;
+  --color-text-hyperlink: #CCE8F5;
+  --color-text-hyperink-hover: #CCD6DB;
+  --color-text-hyperlink-visited: #D4CCF5;
+  /*Darken*/
+  --darken-minimum: rgba(0, 0, 0, 0.3);
   /*Fonts*/
   --stylized-font: a-absolute-empire;
   --regular-font: helvetica-bold;
@@ -44,5 +49,27 @@ p{
 
 a{
   font-family: var(--regular-font);
-  color: var(--color-ui-lightest);
+  color: var(--color-text-hyperlink)
+}
+
+a:hover{
+  color: var(--color-text-hyperink-hover)
+}
+
+a:visited{
+  color: var(--color-text-hyperlink-visited);
+}
+
+button{
+  all: unset;
+  font-family: var(--regular-font);
+  color: white;
+  background-color: var(--color-ui-dark);
+  padding: 0.625em;
+  border-radius: 0.4375em;
+}
+
+button:hover{
+  background-color: var(--darken-minimum);
+  cursor: pointer;
 }
