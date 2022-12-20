@@ -25,10 +25,13 @@
   --color-text-hyperlink: #CCE8F5;
   --color-text-hyperink-hover: #CCD6DB;
   --color-text-hyperlink-visited: #D4CCF5;
+<<<<<<< Updated upstream
   /*Border Color*/
   --color-border-lightest: #fff;
   /*Darken*/
   --darken-minimum: rgba(0, 0, 0, 0.3);
+=======
+>>>>>>> Stashed changes
   /*Fonts*/
   --stylized-font: a-absolute-empire;
   --regular-font: helvetica-bold;
@@ -54,7 +57,11 @@ a{
   color: var(--color-text-hyperlink)
 }
 
+<<<<<<< Updated upstream
 a:hover, a:focus{
+=======
+a:hover{
+>>>>>>> Stashed changes
   color: var(--color-text-hyperink-hover)
 }
 
@@ -62,13 +69,18 @@ a:visited{
   color: var(--color-text-hyperlink-visited);
 }
 
+<<<<<<< Updated upstream
 button, input[type=text]{
+=======
+button{
+>>>>>>> Stashed changes
   all: unset;
   font-family: var(--regular-font);
   color: white;
   background-color: var(--color-ui-dark);
   padding: 0.625em;
   border-radius: 0.4375em;
+<<<<<<< Updated upstream
   border: 0.0625em solid transparent;
 }
 
@@ -83,4 +95,6 @@ input[type=text]:hover{
 button:hover, button:focus, input[type=text]:hover, input[type=text]:focus{
   background-color: var(--darken-minimum);
   border-color: var(--color-border-lightest);
+=======
+>>>>>>> Stashed changes
 }
